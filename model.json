@@ -1,0 +1,58 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "facts about cats and dogs",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CatIntent",
+                    "slots": [
+                        {
+                            "name": "Animal",
+                            "type": "AMAZON.Animal"
+                        }
+                    ],
+                    "samples": [
+                        "{Animal}",
+                        "yes {Animal}",
+                        "tell me about {Animal}",
+                        "tell me more about {Animal}",
+                        "{Animal} facts",
+                        "facts about {Animal}",
+                        "Tell me a {Animal} fact"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "nope",
+                        "Naw",
+                        "No thanks",
+                        "No thank you",
+                        "No"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
